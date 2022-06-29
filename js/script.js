@@ -65,6 +65,6 @@ const mainWrapper = document.getElementById('members-container');
 for ( let i = 0; i < members.length ; i++){
     const currentElement = members[i];
 
-    mainWrapper.innerHTML += `${currentElement.name} ${currentElement.role} ${currentElement.image} <br>`
+    mainWrapper.innerHTML += `${currentElement.name} ${currentElement.role} <img src="./img/${currentElement.image}" alt="Image of a team member"> <br>`
 }
 
