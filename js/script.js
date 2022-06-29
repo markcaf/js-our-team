@@ -59,3 +59,12 @@ const members = [
 ];
 
 console.log(members);
+
+const mainWrapper = document.getElementById('members-container');
+
+for ( let i = 0; i < members.length ; i++){
+    const currentElement = members[i];
+
+    mainWrapper.innerHTML += `${currentElement.name} ${currentElement.role} ${currentElement.image} <br>`
+}
+
