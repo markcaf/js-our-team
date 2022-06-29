@@ -50,10 +50,12 @@ const members = [
         role: 'Developer',
         image: 'scott-estrada-developer.jpg',
     },
-    
+
     {
         name: 'Barbara Ramos',
         role: 'Graphic Designer',
         image: 'barbara-ramos-graphic-designer.jpg',
     },
 ];
+
+console.log(members);
